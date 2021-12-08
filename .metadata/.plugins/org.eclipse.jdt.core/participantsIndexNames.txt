@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2948674130.index
+\08_include\src\main\java
+C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2076051858.index
+\06_script_tag\src\main\java
+C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1758159015.index
+\07_directive_tag\src\main\java
+C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2744730211.index
+\09_scope\src\main\java
+C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\635406704.index
+\06_script_tag\src\main\java
+C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\296885071.index
+\08_include\src\main\java
+C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\209015770.index
+\04_jsp\src\main\java
+C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3648669990.index
+\07_directive_tag\src\main\java

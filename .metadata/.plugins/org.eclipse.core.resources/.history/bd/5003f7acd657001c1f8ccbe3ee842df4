@@ -1,0 +1,24 @@
+<!-- default : buffer=8kb autoFlush=true -->
+<!--  autoFlush = buffer의 값만큼 출력하고 중지 false 초과하면 오버플로우 오류-->
+<%@ page buffer="1kb" autoFlush="true" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>page_02_buffer_info.jsp</title>
+</head>
+<body>
+	<!-- 전체 버퍼 크기 -->
+	Buffer size = <%= out.getBufferSize() %><br/>
+	<!-- 버퍼에 남은 크기 -->
+	Remaining size = <%=out.getRemaining() %><br/>
+	Hello!!!
+	Remaining size = <%=out.getRemaining() %><br/>
+	<%
+		for(int i=0; i<10000; i++){
+			out.println("배");
+		}
+	%><br/>
+	Remaining size = <%=out.getRemaining() %><br/>
+</body>
+</html>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="03_servlet_multi_param">
-        <property name="context-root" value="03_servlet_multi_param"/>
-    </wb-module>
-</project-modules>

@@ -153,7 +153,15 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\kte001\Desktop\workspace\jsp\21_db_mysql\src\main\webapp" path="/21_db_mysql" reloadable="true" source="org.eclipse.jst.jee.server:21_db_mysql"><Resources><PreResources base="C:\Users\kte001\Desktop\workspace\jsp\21_db_mysql\build\classes" classLoaderOnly="false" className="org.apache.catalina.webresources.DirResourceSet" internalPath="/" webAppMount="/WEB-INF/classes"/></Resources></Context></Host>
+      <Context docBase="C:\Users\kte001\Desktop\workspace\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\kte001\Desktop\workspace\jsp\22_dbcp_mysql\src\main\webapp" path="/22_dbcp_mysql" reloadable="true" source="org.eclipse.jst.jee.server:22_dbcp_mysql">
+	<Resource auth="container" driverClassName="com.mysql.cj.jdbc.Driver" factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" initialSize="10" maxActive="200" maxIdle="50" maxWait="60000" minIdle="10" name="java/MySqlDB" password="12345" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/smartWeb" username="smartWeb"/>
+	<!-- initialSize : 커넥션 풀 생성시 최초 생성할 Connection 객체의 수(default : 0) 
+		 maxActive(total) : 동시에 사용할 수 있는 최대 connection 수(default : 8)
+		 maxIdle : 반납된 유휴 Connection 객체를 유지할 수 있는 최대값(default : 8)
+		 minIdle : 최소한으로 유지될 Connection 수(default : 0)
+		 maxWait(maxWaitMillis) : 할당받을 Connection 객체가 없을 때 스레드를 block 시킬 시간(1/1000)(default : 60000) 
+		-->
+<Resources><PreResources base="C:\Users\kte001\Desktop\workspace\jsp\22_dbcp_mysql\build\classes" classLoaderOnly="false" className="org.apache.catalina.webresources.DirResourceSet" internalPath="/" webAppMount="/WEB-INF/classes"/></Resources></Context></Host>
     </Engine>
   </Service>
 </Server>

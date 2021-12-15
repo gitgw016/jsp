@@ -5,10 +5,14 @@
     <fullyQualifiedTypeName name="java.util.Base64.Decoder"/>
     <fullyQualifiedTypeName name="java.util.Enumeration"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.apache.commons.fileupload.servlet.ServletFileUpload"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="org.apache.commons.fileupload.disk.DiskFileItemFactory"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.apache.commons.fileupload.FileItem"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.MultipartConfig"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="javax.swing.text.SimpleAttributeSet"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

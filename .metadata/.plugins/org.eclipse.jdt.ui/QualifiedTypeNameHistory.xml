@@ -14,5 +14,7 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="javax.swing.text.SimpleAttributeSet"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

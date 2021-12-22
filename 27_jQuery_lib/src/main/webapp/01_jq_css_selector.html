@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>01_jq_css_selector.html</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+	// window.onload = function(){};
+	$(function(){
+		// $("#h1") == document.getElemtentById("h1");
+		console.log('문서준비됐다 ㄱㄱ');
+		$("#h1").css("background-color","yellow");
+		$("#h1").css("color","lightgreen");
+		
+		//$("h1") == document.getElementsByTagName("h1");
+		$("h1").css("color","yellow");
+		$("h1").css("background-color","lightgreen")
+	});
+</script>
+</head>
+<body>
+	<h1 class="h1">Header 1</h1>
+	<h1 class="h1">Header 2</h1>
+	<h1 id="h1" class="h1">Header 3</h1>
+	<h1 id="h1">Header 4</h1>
+	
+	<script>
+		// $(".h1") == document.getElemensByClassName("h1");
+		$(".h1").css("color","white");
+		$(".h1").css("backgroundColor","red");
+	</script>
+</body>
+</html>

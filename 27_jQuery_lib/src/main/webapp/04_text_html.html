@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+	$(function(){
+		// innerText == textContent == text()
+		$("h1:nth-child(1)").text("<a href='#'>text()</a>");
+		// innerHTML == html()
+		$("h1:nth-child(2)").html("<a href='#'>html()</a>");
+		$('#text').click(function(){
+			let value = $("#target").text();
+			alert(value);
+		});
+		
+		$("#html").click(function(){
+			alert($("#target").html());
+		});
+	});
+</script>
+</head>
+<body>
+	<h1>h1 - 1</h1>
+	<h1>h1 - 2</h1>
+	<p id="target">이것은 <b><strong>하나의 단락</strong></b>이다.</p>
+	<button id="text">text</button>
+	<button id="html">html</button>
+</body>
+</html>

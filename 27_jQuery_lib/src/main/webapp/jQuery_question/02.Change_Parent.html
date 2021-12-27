@@ -10,9 +10,12 @@
 	 * 기능 : text 변경 
 	 * 함수 : text()
 	 */
-	 function run(){
-		 $("span").text("span(changed)");
-	 }
+	 $(function(){
+		 $("#run").click(function(){
+			 //$("#target > span").text("changed");
+			 $("#target").children("span").text("changed");
+		 });
+	 });
 </script>
 
 </head>
@@ -26,6 +29,6 @@
 			style="color: rgb(240, 240, 240); background-color: rgb(255, 165, 0); margin: 10px; border: 1px solid rgb(34, 34, 34); padding: 5px; background-position: initial initial; background-repeat: initial initial;">span(change
 			me!)</span>
 	</div>
-	<input type="button" id="run" value="run" onclick="run()" /> 
+	<input type="button" id="run" value="run" /> 
 </body>
 </html>

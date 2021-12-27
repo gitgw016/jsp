@@ -9,7 +9,17 @@
 	 * 기능 : parent1의 child를 parent2로 이동 
 	 * 함수 : appendTo() or append()
 	 */
-
+	$(function(){
+		$("input[type=button]").click(function(){
+			// prepend 내부요소의 앞으로
+			// A.prependTo(B) A 요소를 B요소의 내부컨텐츠 앞에 추가
+			// A.prepend(B) B요소를 A요소의 내부컨텐츠 앞에 추가
+			// A.appendTo(B) A요소를 B요소의 내부컨텐츠 뒤에 추가
+			// A.append(B) B요소를 A요소의 내부컨텐츠 뒤에 추가
+			//$("#parent2").append($("#parent1 > #child"));
+			$("#parent1 > #child").appendTo($("#parent2"));
+		});
+	});
 </script>
 
 </head>

@@ -10,6 +10,15 @@
 	 * eq or nth-child
 	 */
 
+	 $(function(){
+		 $("#run").click(function(){
+			 //$("div.target:nth-child(2)").css("background","yellow");
+			 // eq(인덱스) 인덱스 번호에 해당하는 요소를 찾는다. 0부터 시작 1씩 증가
+			 //$(".target").eq(1).css("background","yellow");
+			 // 음수는 뒤에서 부터 검색. 시작 값은 -1부터 1씩 감소
+			 $(".target").eq(-2).css("background","yellow");
+		 });
+	 });
 </script>
 
 </head>

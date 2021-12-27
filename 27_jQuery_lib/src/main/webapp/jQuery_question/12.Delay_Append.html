@@ -9,7 +9,15 @@
 	 * 기능 : 일정 시간 경과 후 문자열 삽입 
 	 * 함수 : setTimeout(), append() or text() or html()
 	 */
-
+	$(function(){
+		$("#btn").click(function(){
+			setTimeout(function(){
+				//$("#target").append("<b>배민구</b>");
+				//$("#target").text("<b>배민구</b>");
+				$("#target").html("<b>배민구</b>");
+			},3000);
+		});
+	});
 </script>
 
 </head>
